@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application</title>
+    <h1><mark>application:</mark></h1>
+    <hr>
+</head>
+<body>
+    <br><h2>
+    <form action="main.java" method="post" >
+    <div><b>
+         <label for="na"> Enter your name</label>
+        <input type="text" placeholder="frist name" id="na" name="nam" minlength="3" maxlength="25">
+       <input type="text" placeholder="last name">
+       </b>
+    </div>
+    <br>
+    <input type="radio" id="ma" name="gender" value="male">
+    <label for="ma">male</label>
+    <input type="radio" id="fe" name="gender" value="female">
+    <label for="fe">female</label>
+    <br>
+    <h2>languages:</h2>
+    <input type="checkbox" id="te" name="tel" value="telugu">
+    <label for="te">telugu</label>
+    <input type="checkbox" id="en" name="eng" value="english">
+    <label for="en" > english</label>
+    <input type="checkbox" id="hin" name="hin" value="hindi">
+    <label for="hin">hindi</label>
+    <br>
+    <h4>groups:</h4>
+    <select name="groups" id="gr" >
+        <optgroup label="inter">
+        <label for="gr">choose your branch</label> 
+        <option value="cec">CEC</option>
+        <option value="mpc">MPC</option>
+        <option value="bipc">BIPC</option>
+        <option value="hec">HEC</option>
+        </optgroup>
+        <optgroup label="degree">
+            <option value="b.com">B.com</option>
+            <option value="bba">BBA</option> 
+        <option value="BZ.c">BZ.c</option>
+        <option value="BS.c">BS.c</option>
+          </optgroup>
+        </select>
+        <br>
+         <label for="mail">enter your email :</label>
+        <input type="email" placeholder="eg:abc@gmail.com" id="mail" name="email">
+       
+        <br>
+        <div>
+            <select name="numberfix" id="ggr">
+                <label for="ggr">tel:</label>
+                <option value="91+"> india +91</option>
+            </select>
+        <input type="number" id="na" placeholder="mobile number" name="num" minlength="10">
+        </div>
+        <br>
+         <label for="message\">about:</label>
+         <br>
+    <textarea name="message" id="message" placeholder="Text me" rows="10" cols="60"></textarea>
+
+
+
+</h2>
+<br>
+<h1>
+    <button type="submmit">SUBMMIT</button>
+<BUTTON type="reset">cancel</BUTTON>
+<button type="button">ok</button></h1>
+    </form>
+    
+    
+</body>
+</html>

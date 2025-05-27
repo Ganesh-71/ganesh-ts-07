@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <u><h1> Mouleswar University::Admission Form</h1></u>
+    <form action="main.java" method="get">
+      <div>
+        <label for="name">Enter name:</label>
+      <input type="text" placeholder="Enter your name" id="name" name="nam">
+      </div>
+      <br>
+      <div>
+      <label for="num">Enter Mobile number:</label>
+      <select name="numprefix" readonly>
+        <option value="+91">+91</option>t
+        </select> 
+      <input type="number" placeholder="ENTER your mobile number" id="num" name="nop" pattern="[0-9]"> 
+      </div><br>
+      <div>
+      <label for="emil">Enter Email:</label>
+      <input type="email" placeholder="Enter your Email" id="emil" name="em" pattern="[0-8a-zA-Z]+@[A-Za-z].\[a-zA-Z]{10,}">
+      </div><br>
+      <div>
+      <label for="age">Enter AGE:</label>
+      <input type="number" placeholder="Enter Age" id="age" required min="18" max="30" name="ega">
+      </div>
+<br>
+<div>
+    Gender:
+    <br>
+    <input type="radio" name="gender" id="m" value="Male">
+    <label for="m">Male</label>
+    <input type="radio" name="gender" id="f" value="Female">
+    <label for="f">Female</label>
+</div><br>
+Intresting Topics:
+<br>
+<div>
+<input type="checkbox" id="cc" value="Coading" name="itopics">
+<label for="cc"> Coading</label>
+<input type="checkbox" id="ai" value="AI" name="itopics">
+<label for="ai">AI</label>
+<input type="checkbox" id="mac" value="Machine_learning" name="itopcs">
+<label for="mac">Machine learning</label>
+<br>
+<input type="checkbox" id="ht" value="html" name="itopcs">
+<label for="ht">HTML</label>
+<input type="checkbox" id="fs" value="Fullstack" name="itopics">
+<label for="fs">Fullstack</label>
+</div>
+<br>
+
+<label for="cour">Choose Courses:</label>
+<select name="branch" id="cour" >
+ <option value="">Select courses</option>
+ <optgroup label="UG courses:">
+    <option value="B.com">B.COM</option>
+    <option value="BBA">BBA</option>
+    <option value="BSC">BSC</option>
+   <option value="BA">BA</option>
+   <option value="BJC">BJC</option>
+ </optgroup>   
+ <optgroup label="PG courses:">
+    <option value="M.COM">M.COM</option>
+    <option value="MBA">MBA</option>
+    <option value="MSC">MSC</option>
+    <option value="MA">MA</option>
+ </optgroup>
+</select>
+<br>
+Adress:
+<br>
+<textarea rows="10" columns="50" placeholder="Enter Address"></textarea>
+<br>
+<br>
+<button type="submit">Submit</button> <button type="reset">Reset</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
